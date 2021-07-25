@@ -27,6 +27,7 @@ puts "Seeding subscriptions..."
 
   # TODO: create subscriptions! Remember, a subscription belongs to a reader
   # and a subscription belongs to a magazine.
+  Subscription.create(price: price, reader_id: reader_id, magazine_id: magazine_id)
   
 end
 
